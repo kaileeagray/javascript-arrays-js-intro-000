@@ -24,12 +24,12 @@ function destructivelyRemoveElementFromBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
-
-function (array, element) {
-  return [...array, element];
-}
-
-function (array, element) {
-  array.push(element);
-  return array;
-}
+//
+// function (array, element) {
+//   return [...array, element];
+// }
+//
+// function (array, element) {
+//   array.push(element);
+//   return array;
+// }
