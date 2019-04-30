@@ -20,11 +20,7 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-function (array, element) {
-  return [element, ...array];
-}
-
-function (array, element) {
+function destructivelyRemoveElementFromBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
