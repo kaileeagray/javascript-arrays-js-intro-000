@@ -20,7 +20,7 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-function removeElementToBeginningOfArray(array, element) {
+function removeElementFromEndOfArray(array, element) {
   return [element, ...array];
 }
 
