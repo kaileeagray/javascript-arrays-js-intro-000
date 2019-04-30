@@ -20,20 +20,20 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-function removeElementFromEndOfArray(array, element) {
+function (array, element) {
   return [element, ...array];
 }
 
-function destructivelyRemoveElementToBeginningOfArray(array, element) {
+function (array, element) {
   array.unshift(element);
   return array;
 }
 
-function removeElementToEndOfArray(array, element) {
+function (array, element) {
   return [...array, element];
 }
 
-function destructivelyRemoveElementToEndOfArray(array, element) {
+function (array, element) {
   array.push(element);
   return array;
 }
