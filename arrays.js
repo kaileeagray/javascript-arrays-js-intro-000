@@ -4,4 +4,8 @@ function addElementToBeginningOfArray(array, element) {
   return [element, ...array];
 }
 
+function addElementToBeginningOfArray(array, element) {
+  return [element, ...array];
+}
+
 // TODO: Define two more functions, addElementToEndOfArray and destructivelyAddElementToEndOfArray. These functions also take two arguments, an array and an element to add to the end of the array. addElementToEndOfArray should not alter the original array; destructivelyAddElementToEndOfArray should alter the original array.
