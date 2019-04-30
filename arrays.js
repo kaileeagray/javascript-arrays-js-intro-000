@@ -33,7 +33,7 @@ function removeElementToEndOfArray(array, element) {
   return [...array, element];
 }
 
-function destructivelyremoveElementToEndOfArray(array, element) {
+function destructivelyRemoveElementToEndOfArray(array, element) {
   array.push(element);
   return array;
 }
